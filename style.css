@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0d2c54;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  max-width: 400px;
+  background: #01060c;
+}
+
+.todos li {
+  background: -webkit-gradient(linear, left top, right top, color-stop(87%, #8a7d8f), to(#b1f100));
+  background: linear-gradient(90deg, #8a7d8f 87%, #b1f100);
+  color: white;
+  border-left: 3px solid #0e468a;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtred {
+  display: none !important;
+}
+/*# sourceMappingURL=style.css.map */
